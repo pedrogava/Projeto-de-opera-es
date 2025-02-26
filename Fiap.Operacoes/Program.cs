@@ -39,6 +39,8 @@ namespace Fiap.Operacoes
                 Console.WriteLine($"Os numeros são diferntes? {num1 != num2}");
                 Console.WriteLine($"O primeiro numero é maior que o segundo? {num1 > num2}");
 
+                //Operações Lógicas
+
                 bool ambosPositivos = num1 >0 && num2 >0;
                 bool nenhumNegativo = !(num1 <0 || num2 < 0);
                 Console.WriteLine($"Ambos positivos?{ambosPositivos}");
